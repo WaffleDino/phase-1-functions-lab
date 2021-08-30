@@ -2,8 +2,6 @@
 const hq = 42;
 let start;
 let destination;
-const distanceInFeet = (start - destination)*264
-
 
 function distanceFromHqInBlocks(start){
     return Math.abs(hq - start);
